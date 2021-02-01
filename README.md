@@ -1,7 +1,8 @@
 # telegramBot
 A couple of months ago, I had to write a telegram bot for a small business which was running in the Telegram application. By a simple search in the net, you can find many source about how to write a bot in telegram, but I could not find any that can be a template and can be customized for a simple interaction with the user.  Then, I have decided to write a simple code to include the general template and important commands to do so. Here, is a simple version of it that can be customized for your goal very easily.  I assume that the reader does not know anything about writing a bot but know basic python scripts!
 To be able to use this template, please follow these steps:
-    - Create your channel or groups in the Telegram app that you want to run the bot in it
+
+    - Create your channel or groups in the Telegram app that you want to run the bot in it\\
     - Create your desired bot interface in the telegram app with "bot father". To do that, type and click on “@BotFather” in the telegram app and create newbot with the command /newbot and follow the instruction (Fig. 1). Here, I create a sample bot with this name “testBotLearning” and this username “testLearnCreateBot” and received this HTTP API token from the botFather: “1694120992:AAG4EpESMdNBihBAP0oUWUWe42gsaoMP1Nw”. DO NOT SHARE YOUR TOKEN WITH ANYBODY!!!
     - Give administrative access to the bot in the group/channel by adding the bot to them and giving enough access.
     - Now it is time to construct your bot programming engine by the written python script. Copy the written template script from here to your python interface, save it, and act according to the helps in front of each line. In the same folder create a virtual environment in command window (assuming that you are using windows!) and activate this environment
