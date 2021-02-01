@@ -5,8 +5,8 @@ To be able to use this template, please follow these steps:
     - Create your desired bot interface in the telegram app with "bot father". To do that, type and click on “@BotFather” in the telegram app and create newbot with the command /newbot and follow the instruction (Fig. 1). Here, I create a sample bot with this name “testBotLearning” and this username “testLearnCreateBot” and received this HTTP API token from the botFather: “1694120992:AAG4EpESMdNBihBAP0oUWUWe42gsaoMP1Nw”. DO NOT SHARE YOUR TOKEN WITH ANYBODY!!!
     - Give administrative access to the bot in the group/channel by adding the bot to them and giving enough access.
     - Now it is time to construct your bot programming engine by the written python script. Copy the written template script from here to your python interface, save it, and act according to the helps in front of each line. In the same folder create a virtual environment in command window (assuming that you are using windows!) and activate this environment
->python -m venv venv/
-> venv\Scripts\activate
+>python -m venv venv
+>venv\Scripts\activate
 
 And install the following libraries
 pip install flask
