@@ -12,11 +12,15 @@ To be able to use this template, please follow these steps:
 >venv\Scripts\activate
 
 And install the following libraries
+
 pip install flask
+
 pip install python-telegram-bot
+
 pip install requests
 
 Then run this command to create the requirements file:
+
 >pip freeze > requirements.txt
 
 In the next step, we need to tell the server, where the application starts. Just create a “Procfile” in the directory of your saved file (at your desktop and where the cmd is running) and type the following: 
